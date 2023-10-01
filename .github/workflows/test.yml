@@ -44,7 +44,7 @@ jobs:
     - name: Use Docker
       uses: actions-hub/docker/cli@master
       env:
-        DOCKER_USERNAME: "ezambomsantaa@gmail.com"
+        DOCKER_USERNAME: "ezambomsantana"
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Images
