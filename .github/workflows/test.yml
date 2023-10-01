@@ -56,4 +56,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ezambomsantana/partida-05-ci  :latest
+        tags: ezambomsantana/partida-05-ci:latest
