@@ -47,6 +47,7 @@ jobs:
         DOCKER_USERNAME: "ezambomsantana"
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
+
     - name: Build Images
       run: docker build -t partida-app-aula-15 .
 
