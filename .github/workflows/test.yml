@@ -69,4 +69,4 @@ jobs:
           docker stop partida-05-ci
           docker rm --force partida-05-ci
           docker image rm --force ezambomsantana/partida-05-ci
-          docker run --name partida-05-ci ezambomsantana/partida-05-ci:latest
+          docker run -d -p 8080:8080 --name partida-05-ci ezambomsantana/partida-05-ci:latest
